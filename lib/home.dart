@@ -3,9 +3,9 @@ import 'package:forui/forui.dart';
 import 'package:pjp_app/calculator/calculator.dart';
 
 final headers = [
-  const FHeader(title: Text('Risk Calculator')),
-  const FHeader(title: Text('About')),
-  const FHeader(title: Text('Contact Us')),
+  const FHeader.nested(title: Text('Risk Calculator')),
+  const FHeader.nested(title: Text('About')),
+  const FHeader.nested(title: Text('Contact Us')),
 ];
 
 final contents = [
